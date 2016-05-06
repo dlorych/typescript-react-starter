@@ -1,0 +1,28 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "target": "es5",
+    "module": "system",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "outDir": "./build"
+  },
+  "filesGlob": [
+    "./typings/browser.d.ts",
+    "./typings/browser/**/*.d.ts",
+    "./app/**/*.ts",
+    "./app/**/*.tsx",
+    "!./node_modules/**"
+  ],
+  "files": [
+    "./typings/browser.d.ts",
+    "./typings/browser/ambient/react-dom/index.d.ts",
+    "./typings/browser/ambient/react/index.d.ts",
+    "./app/hello.tsx"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
