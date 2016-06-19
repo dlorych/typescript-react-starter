@@ -20,5 +20,5 @@
     "postinstall": "typings install"
   },
   "author": "dlorych",
-  "license": "MIT",
+  "license": "MIT"
 }
